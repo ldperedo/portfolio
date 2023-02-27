@@ -12,43 +12,42 @@ header{
 }
 .cara{
     border-radius: 500px;
-    height: 150px;
+    height: 200px;
 }
 .uno{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: calc(35vh - 15px);
+    height: calc(100vh - 65px);
     background-color: #303030;
+    color: white;
     /* padding-top: 10%; */
 }
 .caja-central{
-    margin-top: 2%;
-    width: 100%;
+    margin-top: 10%;
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     border-radius: 20px;
     overflow: hidden;
-    height: 70%;
-    color: #303030;
+    height: 50%;
 }
 .caja-cara{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 40%;
     background-color: #4D4E50;
 }
 .caja-presentacion{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 60%;
     background-color: #FDFDFF;
     color: #303030;
-    padding: 5px;
+    padding: 10px;
 }
 
 .dos{
@@ -63,7 +62,7 @@ header{
     padding-right: 20%;
 }
 .aptitudes{
-    width: 100%;
+    width: 50%;
 }
 .tech-list{
     display: flex;
@@ -73,7 +72,7 @@ header{
 }
 
 .tech{
-    height: 70px;
+    height: 90px;
 }
 
 .tres{
