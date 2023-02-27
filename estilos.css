@@ -62,17 +62,18 @@ header{
     padding-right: 20%;
 }
 .aptitudes{
-    width: 50%;
+    width: 85%;
 }
 .tech-list{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 10px;
     background-color: transparent
 }
 
 .tech{
-    height: 90px;
+    height: 100px;
 }
 
 .tres{
