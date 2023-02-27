@@ -21,7 +21,6 @@ header{
     justify-content: center;
     height: calc(35vh - 15px);
     background-color: #303030;
-    margin-trim: in-flow;
     /* padding-top: 10%; */
 }
 .caja-central{
@@ -163,9 +162,7 @@ footer{
         width: 80%;
         margin-top: 20px;
     }
-    .red-social{
-        height: 6px;
-        width: 10px;
-
+   .red-social{
+        margin: 0 10px 0 10px;
     }
 }
