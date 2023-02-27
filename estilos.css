@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 40px;
+    background-color: #5285E5;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.cara{
+    border-radius: 500px;
+    height: 150px;
+}
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(35vh - 15px);
+    background-color: #303030;
+    margin-trim: in-flow;
+    /* padding-top: 10%; */
+}
+.caja-central{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 70%;
+    color: #303030;
+}
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #4D4E50;
+}
+.caja-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #FDFDFF;
+    color: #303030;
+    padding: 5px;
+}
+
+.dos{
+    background-color: #F2F2F2;
+    height: 2050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.aptitudes{
+    width: 100%;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: transparent
+}
+
+.tech{
+    height: 70px;
+}
+
+.tres{
+    background-color: #4D4E50;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+}
+.certificaciones{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    width: 30%;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card a, footer a {
+    color: white;
+}
+
+.red-social{
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F2F2F2;
+    height: 130px;
+}
+.contacto{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 70%;
+        height: 50%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 50%;
+        align-items: flex-start;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+    .tres{
+        height: auto;
+    }
+    .certificaciones{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .card{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .red-social{
+        height: 6px;
+        width: 10px;
+
+    }
+}
